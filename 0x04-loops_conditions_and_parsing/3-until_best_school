@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#prints a string a certain no of times using until
+NUMBER=0
+until [ $NUMBER -eq 10 ]
+do
+	echo"Best School"
+	(( NUMBER++ ))
+done
