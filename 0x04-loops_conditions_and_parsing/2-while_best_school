@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#script prints a strint a certain number of times
+NUMBER=1
+while [ $NUMBER -le 10 ]
+do
+	echo "Best School"
+	NUMBER=$(( NUMBER+1 ))
+done
